@@ -12,7 +12,8 @@ func generateUUID() string {
 }
 
 func main () {
-	fmt.Println("Hello, World!")
+	hello := "Hello, World!"
+	fmt.Println(hello)
 	fmt.Println("UUID: ", generateUUID())
 	chayathon.SayHello()
 	chayathon.SayHelloGolang()
